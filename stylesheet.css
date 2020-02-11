@@ -7,3 +7,43 @@ h1
 {
     margin-top: 2%;
 }
+
+ul
+{
+    background-color: crimson;
+    margin-top: 20px
+}
+
+li
+{
+    border: 1.5px solid black;
+    padding-left: 10px;
+}
+
+li a 
+{
+    color: black;
+}
+
+#mainDiv
+{
+    background-color: aliceblue;
+    height: 1000px;
+    border: 2px solid black;
+}
+
+@media(min-width: 577px)
+{
+    button
+    {
+        display: none;
+    }
+}
+
+@media(max-width: 576px)
+{
+    button
+    {
+        display: block;
+    }
+}
